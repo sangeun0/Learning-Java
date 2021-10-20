@@ -8,7 +8,7 @@ public class task4 {
 		System.out.println("year? ");
 		int y = input.nextInt();
 
-		if (y%4!=0 && y%100!=0) {
+		if (y%4==0 || y%100!=0) {
 			System.out.println("month? ");
 			int m = input.nextInt();
 
