@@ -2,9 +2,9 @@ package assignment10_3;
 
 class Account {
 	
-	String account;
-	int balance;
-	double interestRate;
+	private String account;
+	private int balance;
+	private double interestRate;
 	
 	
 	public Account(String account, int balance, double interestRate) {
