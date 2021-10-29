@@ -54,7 +54,7 @@ public class Booktest {
 		sum += list[l].getPrice(); 
 		sum2+= list[l].getDiscount();
 		}System.out.println("총금액: "+sum);
-		System.out.println("총금액: "+sum2);
+		System.out.println("할인된 금액: "+sum2);
 		
 		
 		
